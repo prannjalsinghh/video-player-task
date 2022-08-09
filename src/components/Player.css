@@ -1,0 +1,17 @@
+body,html{
+    margin:0;
+    height: calc(100vh - 3px);
+    font-family:  apercu-pro, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    ;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+video{
+    min-height: calc(100vh - 3px);
+    object-fit: cover;
+}

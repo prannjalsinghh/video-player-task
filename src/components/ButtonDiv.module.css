@@ -1,0 +1,56 @@
+.buttonDiv, .secondDiv{
+    display: flex;
+    flex-direction: column;
+    
+    gap:1rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+button{
+    cursor: pointer;
+}
+
+.buttonDiv button{
+    background-color: rgba(13, 14, 14, 0.1);
+    border:none;
+    width:336px;
+    height: 50px;
+    border-radius: 20px;
+    color:white;
+    font-weight: bold;
+    font-size: larger;
+
+}
+.buttonDiv button:hover{
+    border:2px solid rgb(100,0,203)
+}
+.eachButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap:1rem;
+}
+.alphabet{
+    align-items: center;
+    background-color: rgb(100,0,203);
+    border-radius: 150px;
+    padding-top: 5px;
+    width: 28px;
+    height: 28px;
+}
+
+.secondDiv button{
+    background-color:rgb(125, 0, 254);
+    border:none;
+    color:white;
+    font-weight: 700;
+    width: 100%;
+    max-width: 332px;
+    height: 68px;
+    padding: 0px 24px 3px;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 16px;
+}

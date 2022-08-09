@@ -1,0 +1,64 @@
+.form{
+    margin: auto;
+   width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex:1 1 0%;
+   padding: 5%;
+    align-items: center;
+    gap:2rem;
+    background-color: white;
+}
+.formHeading{
+    margin-bottom: 24px;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+    line-height: 140%;
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+}
+input{
+    width: 100%;
+    
+    border: none;
+    border-bottom: solid 2px rgb(235, 235, 235);
+}
+input,
+input::placeholder {
+    font: 20px/3 sans-serif;
+}
+input:focus{
+    outline: none;
+    border-bottom: solid 2px black;
+    
+}
+.terms{
+    color: rgba(17, 17, 17, 0.6);
+    margin: 0;
+    font-size: smaller;
+    text-align: left;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    
+
+
+}
+.check input{
+    width:5%;
+}
+.form button{
+    background-color:rgb(125, 0, 254);
+    border:none;
+    color:white;
+    font-weight: 700;
+    width: 100%;
+    max-width: 332px;
+    height: 68px;
+    padding: 0px 24px 3px;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 16px;
+}
